@@ -1,0 +1,93 @@
+a {
+  text-decoration: none;
+  color: #d3e1eb;
+}
+
+a:hover {
+  color: #ffcb6d;
+}
+
+body {
+  background: white;
+}
+
+h1 {
+  text-align: center;
+  padding: 0px 10px 10px 10px;
+  font-size: xx-large;
+  color: #383233;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
+}
+
+h2 {
+  font-size: small;
+  color: #48484a;
+  margin: 5px;
+  padding: 15px 10px 15px 10px;
+  text-align: left;
+  font-family: "DM Sans", sans-serif;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+h4 {
+  font-size: x-large;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px;
+  color: #383233;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.Box {
+  margin: 15px auto;
+  border-radius: 10px;
+  max-width: 500px;
+  font-family: "DM Sans", sans-serif;
+  background: linear-gradient(to bottom, #a4dfdb, #80bfb8);
+  text-align: center;
+}
+
+.Footer {
+  font-size: small;
+  padding: 10px 10px 25px 10px;
+  color: #383233;
+}
+
+.Forecast .forecastIcon {
+  max-width: 40px;
+}
+
+.Header .headerIcon {
+  max-width: 40%;
+  margin-bottom: 5px;
+}
+
+.listGroupItem {
+  background: linear-gradient(to bottom, #ffcb6d, #ffdb8e);
+  border: 1px solid #ffcb6d;
+  margin-top: 10px;
+  margin-right: 32px;
+}
+
+#animation {
+  display: block;
+  margin: 0 auto;
+  padding-top: 22px;
+  max-width: 450px;
+}
+
+#locationButton {
+  width: 35px;
+  height: 35px;
+}
