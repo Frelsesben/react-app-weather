@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.css";
 import "./styles.css";
 import Box from "./Box";
 import reportWebVitals from "./reportWebVitals";

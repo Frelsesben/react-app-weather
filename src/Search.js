@@ -46,6 +46,7 @@ export default function Search() {
       <div className="Search">
         {form}
         <h3>SheCodes React Week 3 challenge ⬆</h3>
+        <button className="btn btn-primary">Hello</button>
       </div>
     );
   }
