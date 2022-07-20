@@ -9,7 +9,7 @@ export default function WeatherInfo(props) {
       </h1>
       <p>
         Humidity is at {props.data.humidity}% and the wind is blowing with{" "}
-        {props.data.wind} m/s
+        {Math.round(props.data.wind)} m/s
       </p>
     </div>
   );
