@@ -8,7 +8,6 @@ import Forecast from "./Forecast";
 export default function Box() {
   return (
     <div className="Box">
-      <Header />
       <Search />
       <Forecast />
       <Footer />
