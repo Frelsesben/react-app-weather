@@ -45,31 +45,17 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="Search">
-        <lottie-player
-          src="https://assets6.lottiefiles.com/packages/lf20_iombyzfq.json"
-          id="animation"
-          background="transparent"
-          speed="0.5"
-          loop
-          autoplay
-        ></lottie-player>
-        <WeatherInfo data={weatherData} />
         {form}
+        <br />
+        <WeatherInfo data={weatherData} />
       </div>
     );
   } else {
     return (
       <div className="Search">
-        <lottie-player
-          src="https://assets6.lottiefiles.com/packages/lf20_iombyzfq.json"
-          id="animation"
-          background="transparent"
-          speed="0.5"
-          loop
-          autoplay
-        ></lottie-player>
-        <h1>Find the weather in any city: </h1>
         {form}
+        <br />
+        <h1>See the weather for any city ⬆ </h1>
       </div>
     );
   }

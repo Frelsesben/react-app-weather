@@ -13,7 +13,7 @@ body {
 
 h1 {
   text-align: center;
-  padding: 0px 10px 10px 10px;
+  padding: 0px 10px 0px 10px;
   font-size: xx-large;
   color: #383233;
   text-transform: uppercase;
@@ -60,7 +60,7 @@ li {
 
 .Footer {
   font-size: small;
-  padding: 10px 10px 25px 10px;
+  padding: 10px 10px 10px 10px;
   color: #383233;
 }
 
@@ -73,6 +73,10 @@ li {
   margin-bottom: 5px;
 }
 
+.Search {
+  padding-top: 25px;
+}
+
 .listGroupItem {
   background: linear-gradient(to bottom, #ffcb6d, #ffdb8e);
   border: 1px solid #ffcb6d;
@@ -83,11 +87,5 @@ li {
 #animation {
   display: block;
   margin: 0 auto;
-  padding-top: 15px;
   max-width: 450px;
-}
-
-#locationButton {
-  width: 35px;
-  height: 35px;
 }
