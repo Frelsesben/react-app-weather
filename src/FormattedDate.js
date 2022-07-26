@@ -44,7 +44,7 @@ export default function FormattedDate(props) {
   return (
     <p>
       <i>
-        Data fetched at {hours}:{minutes} on {day} {month} {date}, {year}
+        Data last updated at {hours}:{minutes} on {day} {month} {date}, {year}
       </i>
     </p>
   );
