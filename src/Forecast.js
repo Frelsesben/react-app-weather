@@ -1,4 +1,5 @@
 import "./styles.css";
+import WeatherIcon from "./WeatherIcon";
 
 export default function Forecast() {
   let forecastData = {
@@ -6,29 +7,42 @@ export default function Forecast() {
     hour: 15,
     minutes: "00",
     description: "no clouds",
-    imgUrl: "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/clear-day.svg",
   };
   return (
     <div className="Forecast">
-      <h4>Upcoming hours</h4>
-      <ul className="listGroup">
-        <li className="listGroupItem">
-          <img
-            src={forecastData.imgUrl}
-            alt={forecastData.description}
-            className="forecastIcon"
-          />
-          <br />
-          <strong>
-            {forecastData.hour}:{forecastData.minutes}
-          </strong>{" "}
-          <br />
-          <em>
-            {forecastData.temperature}
-            <sup>°c</sup> with {forecastData.description}
-          </em>
-        </li>
-      </ul>
+      <div className="row">
+        <div className="col">
+          <h4>Upcoming hours</h4>
+          <ul className="listGroup">
+            <li className="listGroupItem">
+              <WeatherIcon code="01d" size={25} animate={false} />
+              <br />
+              <strong>
+                {forecastData.hour}:{forecastData.minutes}
+              </strong>{" "}
+              <br />
+              <em>
+                {forecastData.temperature}
+                <sup>°c</sup> with {forecastData.description}
+              </em>
+            </li>
+          </ul>
+        </div>
+        <div className="col">
+          <h4>Upcoming days</h4>
+          <ul className="listGroup">
+            <li className="listGroupItem">
+              <WeatherIcon code="11d" size={25} animate={false} />
+              <br />
+              <strong>Wednesday</strong> <br />
+              <em>
+                {forecastData.temperature}
+                <sup>°c</sup> with {forecastData.description}
+              </em>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
