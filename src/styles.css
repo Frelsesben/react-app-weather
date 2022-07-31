@@ -38,11 +38,19 @@ h3 {
 h4 {
   font-size: x-large;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 5px;
   color: #383233;
   text-transform: uppercase;
   font-family: "Fjalla One", sans-serif;
+}
+
+h6 {
+  color: #383233;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
 }
 
 li {
