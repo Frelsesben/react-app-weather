@@ -14,8 +14,28 @@ export default function Forecast(props) {
 
   if (loaded) {
     return (
-      <div className="Forecast">
-        <ForecastDay data={forecast[1]} />
+      <div className="container">
+        <div className="row">
+          <div className="col-4">
+            <ForecastDay data={forecast[1]} />
+          </div>
+          <div className="col-4">
+            <ForecastDay data={forecast[2]} />
+          </div>
+          <div className="col-4">
+            <ForecastDay data={forecast[3]} />
+          </div>
+          <p></p>
+          <div className="col-4">
+            <ForecastDay data={forecast[4]} />
+          </div>
+          <div className="col-4">
+            <ForecastDay data={forecast[5]} />
+          </div>
+          <div className="col-4">
+            <ForecastDay data={forecast[6]} />
+          </div>
+        </div>
       </div>
     );
   } else {

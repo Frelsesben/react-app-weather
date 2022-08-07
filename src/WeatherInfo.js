@@ -15,6 +15,7 @@ export default function WeatherInfo(props) {
         size={150}
         alt={props.data.description}
         animate={true}
+        color="white"
       />
       <p>
         Humidity is at {props.data.humidity}% and the wind is blowing with{" "}
